@@ -30,6 +30,7 @@
 - 执行 `python -m bijibiji.bijitags.bijitags_wizard` 开始对文件添加标签。
 - 执行 `python -m bijibiji.bijitags.bijitags_manager` 可以对系统中的全部标签进行简单管理。
 - 在移动文件位置后，执行 `python -m bijibiji.bijiscan.bijiscan_gui` 可以查看有哪些文件需要处理。
+- 提供了 bat 文件, Windows 用户可以双击 bat 文件运行程序。
 
 
 ## 建设中
