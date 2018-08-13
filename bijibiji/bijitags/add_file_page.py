@@ -78,6 +78,7 @@ class AddFilePage(QWizardPage):
 
         for file in files:
             if file.endswith('.biji.json') \
+                    or file == 'biji_database.db' \
                     or self.fileList.findItems(file, Qt.MatchExactly):
                 continue
             item = QListWidgetItem(self.fileList)
