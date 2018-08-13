@@ -117,7 +117,7 @@ class BijiScanner(QWidget):
     @staticmethod
     def update_list(list_widget: QListWidget, items: List[str]) -> None:
         if not items:
-            list_widget.parent().setVisible(False)
+            list_widget.parent().setEnabled(False)
             return
         for item in items:
             list_item = QListWidgetItem(list_widget)
